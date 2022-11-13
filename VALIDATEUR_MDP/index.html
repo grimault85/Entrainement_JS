@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validateur de Mot de Passe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="titre">
+        <h1>Validateur de Mot de Passe</h1>
+    </div>
+    <div id="verifBox">
+        <div id="inputBox">
+            <div id="input">
+                <input oninput="validation()" type="password" name="pasword" id="password" placeholder="Entrez votre mot de passe...">
+                <img id="eyes" src="icone/icons8-eyes-32.png" alt="eyes"> 
+                <img id="eyes2" src="icone/icons8-eyes-creatype-two-colour-32.png" alt="eyes">
+            </div>
+        </div>
+        <div>
+            <h3 class="checkBox" id="check1"><img src="icone/icons8-vérifié-32.png" alt="check" id="check_1"><span class="h3">Doit contenir des chiffres</span></h3>
+            <h3 class="checkBox" id="check2"><img src="icone/icons8-vérifié-32.png" alt="check" id="check_2"><span class="h3">Doit contenir des lettres majuscules</span></h3>
+            <h3 class="checkBox" id="check3"><img src="icone/icons8-vérifié-32.png" alt="check" id="check_3"><span class="h3">Doit contenir des lettres minuscules</span></h3>
+            <h3 class="checkBox" id="check4"><img src="icone/icons8-vérifié-32.png" alt="check" id="check_4"><span class="h3">Doit contenir des caractères spéciaux</span></h3>
+            <h3 class="checkBox" id="check5"><img src="icone/icons8-vérifié-32.png" alt="check" id="check_5"><span class="h3">Doit contenir au moins 12 caractères</span></h3>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

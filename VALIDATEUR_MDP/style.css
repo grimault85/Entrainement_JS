@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(84, 156, 251);
+}
+#titre {
+    padding: 20px;
+    margin: 20px;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: 0px 0px 10px white;    
+}
+#verifBox {
+    background-color: white;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 25px;
+    box-shadow: 0px 0px 25px navy;
+    width: 460px;
+}
+#inputBox {
+    padding: 10px;
+}
+input {
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    width: 80%;
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 4px solid navy;
+}
+.checkBox {
+    padding: 10px;
+}
+img {
+    size: 20px;
+    margin-right: 12px;
+}
+.h3 {
+    position: relative;
+    top: -10px;
+}
+#eyes, #eyes2 {
+    margin-left: 10px;
+    position: relative;
+    bottom: -30px;
+    cursor: pointer;
+}
+#eyes2 {
+    display: none;
+}
+#check_1, #check_2, #check_3, #check_4, #check_5 {
+    display: none;
+}

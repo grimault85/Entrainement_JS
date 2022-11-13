@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: beige;
+}
+header {
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+}
+h1 {
+    font-size: 3rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+.btnContent {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.btn {
+    padding: 15px;
+    margin: 35px 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: lightsalmon ;
+    border-radius: 25px;
+    cursor: pointer
+}
+.btn:hover {
+    background-color: salmon;
+    color: white;
+    scale: 1.2;
+}
+h2 {
+    font-size: 2.5rem;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    text-shadow: 3px 3px 3px rgb(238, 120, 2);
+}
