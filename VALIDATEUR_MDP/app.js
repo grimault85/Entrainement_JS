@@ -1,3 +1,19 @@
+/* 
+@NOTE:
+    C'est une très bonne nouvelles que tu sache reverse-engineer un sujet.
+    Point d'amelioration:
+    - Ton code ne marche pas avec plusieurs langues
+    - Ton code ne scale pas si ont doit rajouté des nouvelles validations
+    - Ton archi n'est pas au standars du marché
+    
+    Le standars:
+    - Le form est envoyé sur le serveur
+    - Le serveur valide les données
+    - Le serveur réponds avec un objets JSON avec une liste de d'érreur qu'il traduit grace a un params dans l'url
+    - Le client prend cette liste et la render sur le navigateur avec le bon styling
+
+Essay de faker la request et implemente l'archi proposé ;)
+*/
 var input = document.getElementById("password")
 var eyes = document.getElementById("eyes")
 var eyes2 = document.getElementById("eyes2")
